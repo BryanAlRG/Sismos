@@ -1,0 +1,35 @@
+{
+  "pipeline": "usgs-earthquake-serverless-mining",
+  "processed_at": "EJEMPLO: el servicio genera esta fecha al ejecutarse",
+  "input_count": 3,
+  "output_count": 3,
+  "results": [
+    {
+      "id": "demo-001",
+      "place": "Costa del Pacífico",
+      "magnitude": 2.4,
+      "depth_km": 12.5,
+      "time_utc": "2026-10-26T18:30:00+00:00",
+      "label": "bajo",
+      "rule": "magnitude >= 5: alto; >= 3: moderado; < 3: bajo"
+    },
+    {
+      "id": "demo-002",
+      "place": "Región montañosa",
+      "magnitude": 3.8,
+      "depth_km": 8.2,
+      "time_utc": "2026-10-26T19:10:00+00:00",
+      "label": "moderado",
+      "rule": "magnitude >= 5: alto; >= 3: moderado; < 3: bajo"
+    },
+    {
+      "id": "demo-003",
+      "place": "Zona oceánica",
+      "magnitude": 5.6,
+      "depth_km": 22.0,
+      "time_utc": "2026-10-26T20:05:00+00:00",
+      "label": "alto",
+      "rule": "magnitude >= 5: alto; >= 3: moderado; < 3: bajo"
+    }
+  ]
+}
